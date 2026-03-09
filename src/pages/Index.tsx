@@ -26,6 +26,7 @@ const Index = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
+          <BackgroundMusic />
           <FloatingPetals />
 
           {/* Top gold border */}
