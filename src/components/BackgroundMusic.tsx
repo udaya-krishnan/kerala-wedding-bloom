@@ -11,7 +11,7 @@ const BackgroundMusic = () => {
       "/Niyum njanum.mpeg"
     );
     audio.loop = true;
-    audio.volume = 0.1;
+    audio.volume = 0.2;
     audioRef.current = audio;
 
     const playPromise = audio.play();
