@@ -9,6 +9,7 @@ import GallerySection from "@/components/GallerySection";
 import LocationSection from "@/components/LocationSection";
 import ActionButtons from "@/components/ActionButtons";
 import FloatingPetals from "@/components/FloatingPetals";
+import BackgroundMusic from "@/components/BackgroundMusic";
 
 const Index = () => {
   const [isOpen, setIsOpen] = useState(false);
