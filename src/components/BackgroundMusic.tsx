@@ -8,10 +8,10 @@ const BackgroundMusic = () => {
 
   useEffect(() => {
     const audio = new Audio(
-      "https://cdn.pixabay.com/audio/2024/11/28/audio_3a5e6aa3d1.mp3"
+      "/Niyum njanum.mpeg"
     );
     audio.loop = true;
-    audio.volume = 0.3;
+    audio.volume = 0.1;
     audioRef.current = audio;
 
     const playPromise = audio.play();
